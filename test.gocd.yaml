@@ -5,8 +5,8 @@ pipelines:
       servicegit: # name of material
         git: https://github.com/arvindsv/test-private-repo.git
         branch: master
-        username: arvindsv
-        encrypted_password: AES:yNe5MXG8LlLbkZDcncv1EA==:yCAhZlbMbZkIxEHtg45L7BWjKZhLkvUhBxdJHStpiBpgYwIW6L7uov19uillwKp1
+        username: arvindsvtest1
+        encrypted_password: AES:2Cbt3bkCgQKIEfcoZAa8mA==:uC3igobexCe0KDt1+PvYOMLbIGvydhX2vde1FNqgM0obx+Z/h2kWWZkvlEYMHpr4
         destination: gitmaterialdir
         auto_update: true
     stages:
