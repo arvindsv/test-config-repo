@@ -5,8 +5,11 @@ pipelines:
       servicegit: # name of material
         git: https://github.com/arvindsv/test-private-repo.git
         branch: master
-        username: arvindsvtest1
-        encrypted_password: AES:2Cbt3bkCgQKIEfcoZAa8mA==:uC3igobexCe0KDt1+PvYOMLbIGvydhX2vde1FNqgM0obx+Z/h2kWWZkvlEYMHpr4
+        # username: arvindsvtest1
+        # encrypted_password: AES:2Cbt3bkCgQKIEfcoZAa8mA==:uC3igobexCe0KDt1+PvYOMLbIGvydhX2vde1FNqgM0obx+Z/h2kWWZkvlEYMHpr4
+        username: arvindsv
+        encrypted_password: AES:rVp1fKCn5tjNdyN/hQhtqQ==:VKVR4iIxHrDCA52FpDJHp16Nu9SZAmZZw1VMuRaS7yJ2cN8KQlBYzDiv6s3TA86x
+
         destination: gitmaterialdir
         auto_update: true
     stages:
