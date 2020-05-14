@@ -6,7 +6,7 @@ pipelines:
         git: https://github.com/arvindsv/test-private-repo.git
         branch: master
         username: arvindsv
-        encrypted_password: AES:0ixGQ467qLeuGfRdV3QcTg==:qZcHrkW4X0f2l1I61Pq1TrsenlL+gNsE8Fagcw7WxQAJwPiNV7VC4V6QtKwwJjd4
+        encrypted_password: AES:yNe5MXG8LlLbkZDcncv1EA==:yCAhZlbMbZkIxEHtg45L7BWjKZhLkvUhBxdJHStpiBpgYwIW6L7uov19uillwKp1
         destination: gitmaterialdir
         auto_update: true
     stages:
