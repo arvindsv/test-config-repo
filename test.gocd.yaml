@@ -6,9 +6,10 @@ pipelines:
         git: https://github.com/arvindsv/test-private-repo.git
         branch: master
         # username: arvindsvtest1
-        # encrypted_password: AES:a1NltpGE6RV5LAwquqlRSw==:XyBrDnMygpWq7iNLnbMqZVPrOPTHfGT4wxh9yTSLdz48OhI/4Uwl9LYTwPTTBiJB
+        # encrypted_password: AES:a1NltpGE6RV5LAwquqlRSw==:XyBrDnMygpWq7iNLnbMqZVPrOPTHfGT4wxh9yTSLdz48OhI/4Uwl9LYTwPTTBiJB # arvindsvtest1
         username: arvindsv
-        encrypted_password: AES:RWLOHdRfEDsvfNR/LYCNuA==:ScDksqqDJvuhbIygSwij8Bq4lPjCU7Tiythvq29VVDH+iWhbEoGKjAmA4fTgSWj7
+        # encrypted_password: AES:RWLOHdRfEDsvfNR/LYCNuA==:ScDksqqDJvuhbIygSwij8Bq4lPjCU7Tiythvq29VVDH+iWhbEoGKjAmA4fTgSWj7 # arvindsv
+        encrypted_password: AES:Aq0pKKfeaeDXXdHdclU21Q==:2CeMurEHdfyZb5uO3fF2wQ== # wrong
 
         destination: gitmaterialdir
         auto_update: true
