@@ -1,0 +1,23 @@
+pipelines:
+  credtest: # name of pipeline
+    group: Microservices
+    materials:
+      servicegit: # name of material
+        git: https://github.com/arvindsv/test-private-repo.git
+        branch: master
+        username: arvindsv
+        encrypted_password: AES:0ixGQ467qLeuGfRdV3QcTg==:qZcHrkW4X0f2l1I61Pq1TrsenlL+gNsE8Fagcw7WxQAJwPiNV7VC4V6QtKwwJjd4
+        destination: gitmaterialdir
+        auto_update: true
+    stages:
+      - somestage: # name of stage
+          jobs:
+            buildjob-docker-image: # name of job
+              elastic_profile_id: basic
+              tasks:
+               - exec:
+                   command: bash
+                   working_directory: gitmaterialdir
+                   arguments:
+                    - "-c"
+                    - "echo cat test.txt"
