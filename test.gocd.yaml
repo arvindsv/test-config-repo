@@ -16,7 +16,7 @@ pipelines:
       - somestage: # name of stage
           jobs:
             buildjob-docker-image: # name of job
-              # elastic_profile_id: basic
+              elastic_profile_id: demo-app
               tasks:
                - exec:
                    command: bash
